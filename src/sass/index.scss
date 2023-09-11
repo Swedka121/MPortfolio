@@ -29,16 +29,17 @@ body {
         }
         .back3 {
             position: absolute;
-            left:30%;
-            top:10%;
-            width: 392.428px;
-            height: 221px;
+            left:0;
+            top:2500px;
+            width: 100vw;
+            height: 110vh;
+            background-image: url(/public/back3.png);
             background-size: cover;
             background-repeat: no-repeat;
         }
     }
     .container {
-        width:95%;
+        width:85%;
         margin: 0% auto;
         .Hero {
             display: flex;
@@ -134,10 +135,8 @@ body {
                 background-image: url(/public/man.png);
                 background-size: cover;
                 background-repeat: no-repeat;
-                width: 340px;
-                min-height: 880px;
-                height: max-content;
-                margin-left: 8%;
+                width: 350px;
+                min-height: 905px;
             }
             .text {
                 display: flex;
@@ -169,6 +168,128 @@ body {
                     letter-spacing: 0.48px;
                 }
             }
+        }
+        .Projects {
+            margin-top: 900px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            .title {
+                color: #000;
+                font-family: "Montserrat";
+                font-size: 128px;
+                font-style: normal;
+                font-weight: 800;
+                line-height: normal;
+                margin: 0 auto;
+            }
+        }
+    }
+}
+.Project-1 {
+    margin-top:100px;
+    display: flex;
+    flex-direction: row;
+    .img {
+        background-color: #000000;
+        width: 600px;
+        height: 750px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .light {
+            position: absolute;
+            z-index:-1;
+            width:650px;
+            height: 800px;
+            border-radius: 921px;
+            filter: blur(45px);
+        }
+        >img {
+            background-size: cover;
+            max-width: 590px;
+            height: 740px;
+        }
+    }
+    .text {
+        width:70%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        font-family: "Inter";
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        .theme {
+            display: flex;
+            flex-direction: row;
+            column-gap: 5px;
+        }
+        .description {
+            margin-top: 16px;
+            color: rgba(0, 0, 0, 0.80);
+            text-align: center;
+            font-family: "Inter";
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+        }
+    }
+}
+.Project-2 {
+    margin-top:100px;
+    display: flex;
+    flex-direction: row-reverse;
+    .img {
+        background-color: #000000;
+        width: 600px;
+        height: 750px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .light {
+            position: absolute;
+            z-index:-1;
+            width:650px;
+            height: 800px;
+            border-radius: 921px;
+            filter: blur(45px);
+        }
+        >img {
+            background-size: cover;
+            max-width: 590px;
+            height: 740px;
+        }
+    }
+    .text {
+        width:70%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        font-family: "Inter";
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        .theme {
+            display: flex;
+            flex-direction: row;
+            column-gap: 5px;
+        }
+        .description {
+            margin-top: 16px;
+            color: rgba(0, 0, 0, 0.80);
+            text-align: center;
+            font-family: "Inter";
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
         }
     }
 }

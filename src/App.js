@@ -1,10 +1,13 @@
 import React, { useEffect, useState } from 'react'
+import Project from './components/Project.jsx'
 import "./sass/index.scss"
 
 export default function App() {
     const [data, useData] = useState([])
+    //https://64fda5c6596493f7af7e688e.mockapi.io/items//
+    
     useEffect(() => {
-        fetch("https://64fda5c6596493f7af7e688e.mockapi.io/items").then(response => response.json()).then(data => useData(data))
+        fetch("https://64eb93a0e51e1e82c577802a.mockapi.io/api/blog/items").then(response => response.json()).then(data => useData(data))
     }, []) 
   return (
     <div className='App'>
@@ -37,7 +40,10 @@ export default function App() {
                 </div>
             </div>
             <div className='Projects'>
-                <h1 className='title'></h1>
+                <h1 className='title'>Projects</h1>
+                {
+                    data.map(project => <Project theme_color={project.theme_color} back_color={project.back_color} theme={project.theme} img={project.img} description={project.description} id={project.id} key={project.id} value={project.value} max_value={project.max_value}></Project>)
+                }
             </div>
         </div>
     </div>
