@@ -33,7 +33,7 @@ export default function App() {
                 <div className='man'></div>
                 <div className='text'>
                     <h1>About me</h1>
-                    <p></p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mattis erat aliquet, vulputate tellus ac, ullamcorper ipsum. Integer sit amet volutpat ipsum, ac pharetra est. Nulla sed nisl urna. Pellentesque quis sapien nec nisi ullamcorper eleifend. Quisque egestas sit amet nunc sit amet sollicitudin. Vestibulum in lectus vestibulum, scelerisque metus vitae, porttitor nulla. Etiam ipsum purus, luctus dapibus mauris vel, ultrices rhoncus odio. Curabitur non felis magna. Aenean iaculis consequat enim, eu dapibus lectus congue id. Sed rhoncus porttitor convallis. Ut id ante quis diam ornare porta sed ut ligula. Nam a commodo orci. Etiam dapibus elementum tincidunt. In hac habitasse platea dictumst. Duis quis leo dignissim magna auctor porttitor quis lacinia felis.</p>
                 </div>
             </div>
             <div className='Projects'>
