@@ -29,7 +29,7 @@ export default function App() {
                     </div> 
                 </div>
                 
-                <button className='more'>MORE</button>
+                <button onClick={() => {window.scrollBy(0, 1500)}}className='more'>MORE</button>
             </div>
             <div className='About'>
                 <div className='man'></div>
