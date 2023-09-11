@@ -4,10 +4,9 @@ import "./sass/index.scss"
 
 export default function App() {
     const [data, useData] = useState([])
-    //https://64fda5c6596493f7af7e688e.mockapi.io/items//
     
     useEffect(() => {
-        fetch("https://64eb93a0e51e1e82c577802a.mockapi.io/api/blog/items").then(response => response.json()).then(data => useData(data))
+        fetch("https://64fda5c6596493f7af7e688e.mockapi.io/items").then(response => response.json()).then(data => useData(data))
     }, []) 
   return (
     <div className='App'>
