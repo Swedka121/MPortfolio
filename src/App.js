@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import { NavLink } from "react-router-dom"
 import Project from './components/Project.jsx'
 import "./sass/index.scss"
 
@@ -44,6 +45,15 @@ export default function App() {
                     data.map(project => <Project theme_color={project.theme_color} back_color={project.back_color} theme={project.theme} img={project.img} description={project.description} id={project.id} key={project.id} value={project.value} max_value={project.max_value}></Project>)
                 }
             </div>
+        </div>
+        <div className='footer'>
+            <nav>
+                <h1 className='title'>My Contacts</h1>
+                <div className='block'>
+                    <div className='instagram-logo'></div>
+                    <a href="https://instagram.com/hyperava60630?igshid=OGQ5ZDc2ODk2ZA==">My instagram</a>
+                </div>
+            </nav>
         </div>
     </div>
   )

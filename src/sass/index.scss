@@ -207,9 +207,11 @@ body {
             filter: blur(45px);
         }
         >img {
+            background-repeat: no-repeat;
             background-size: cover;
-            max-width: 590px;
-            height: 740px;
+            width:98%;
+            height: 98%;
+            z-index: 10;
         }
     }
     .text {
@@ -260,9 +262,10 @@ body {
             filter: blur(45px);
         }
         >img {
+            background-repeat: no-repeat;
             background-size: cover;
-            max-width: 590px;
-            height: 740px;
+            width:98%;
+            height: 98%;
         }
     }
     .text {
@@ -290,6 +293,39 @@ body {
             font-style: normal;
             font-weight: 300;
             line-height: normal;
+        }
+    }
+}
+.footer {
+    margin-top:150px;
+    width:100%;
+    background-color: #fcf5b1;
+    height:300px;
+    padding-left: 10%;
+    .title {
+        font-size: 24px;
+        font-family: "Inter";
+        padding-top: 100px;
+        color:rgba(0,0,0,0.80)
+    }
+    .block {
+        margin-top: 20px;
+        margin-left: 10px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        column-gap: 10px;
+        >div {
+            background-image: url(/public/instagram.svg);
+            width:16px;
+            height:16px;
+            background-size: cover;
+        }
+        >a {
+            font-size: 16px;
+            font-family: "Inter";
+            color:#000;
+            text-decoration: none;
         }
     }
 }
