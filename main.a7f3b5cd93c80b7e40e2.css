@@ -1,0 +1,346 @@
+/*!**************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/index.scss ***!
+  \**************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Neucha&display=swap);
+/*!********************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/index.css ***!
+  \********************************************************************************************************/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: 180deg, #FBF5BC 99.99%, rgba(251, 251, 251, 0) 100%;
+}
+/*!******************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/index.scss (1) ***!
+  \******************************************************************************************************************/
+body {
+  background-color: #FBF5BC;
+  overflow-x: hidden;
+}
+
+.App .back {
+  position: absolute;
+  z-index: -1;
+}
+.App .back .back1 {
+  position: absolute;
+  left: 600px;
+  top: 10vh;
+  width: 392.428px;
+  height: 221px;
+  background-image: url(c0aea04f7e785ba2b97d.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.App .back .back2 {
+  position: absolute;
+  left: 0;
+  top: 800px;
+  width: 100vw;
+  height: 110vh;
+  background-image: url(5144fec6c8f187eb66f8.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.App .back .back3 {
+  position: absolute;
+  left: 0;
+  top: 2500px;
+  width: 100vw;
+  height: 110vh;
+  background-image: url(93dc4cb84df1d3afbbb7.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.App .container {
+  width: 85%;
+  margin: 0% auto;
+}
+.App .container .Hero {
+  display: flex;
+  flex-direction: row;
+}
+.App .container .Hero .back .table {
+  position: absolute;
+  left: 50vw;
+  background-image: url(45ac26d5a793bc179429.png);
+  width: 400px;
+  height: 300px;
+  background-repeat: no-repeat;
+}
+.App .container .Hero .back .table > h1 {
+  margin-top: 190px;
+  margin-left: 25px;
+  transform: rotate(13.298deg);
+  color: #4A3C3C;
+  font-family: "Neucha";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.App .container .Hero .lighted {
+  margin-left: 10%;
+}
+.App .container .Hero .lighted .light {
+  position: absolute;
+  margin-left: -60px;
+  margin-top: 70px;
+  border-radius: 756px;
+  background: rgba(240, 209, 41, 0.6);
+  filter: blur(50px);
+  width: 521px;
+  height: 756px;
+  z-index: -1;
+}
+.App .container .Hero .lighted .img {
+  margin-top: 135px;
+  width: 410px;
+  height: 570px;
+  background-color: #000;
+  transform: rotate(-1.68deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.App .container .Hero .more {
+  width: 480px;
+  height: 115px;
+  border-radius: 38px;
+  background: linear-gradient(95deg, rgba(247, 207, 0, 0.74) 35.01%, rgba(239, 170, 35, 0.74) 99.99%);
+  box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border: none;
+  margin-top: 450px;
+  margin-left: 20vw;
+  color: #000;
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.App .container .Hero .more:hover {
+  animation: ease-in 1s tr infinite;
+}
+@keyframes tr {
+  0% {
+    transform: rotate(-5deg);
+  }
+  50% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(-5deg);
+  }
+}
+.App .container .Hero .more:active {
+  animation: tr 1s linear infinite;
+}
+.App .container .About {
+  width: 100%;
+  margin-top: 900px;
+  display: flex;
+  flex-direction: row;
+}
+.App .container .About .man {
+  background-image: url(02395ebd921bea5d65c8.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 350px;
+  min-height: 905px;
+}
+.App .container .About .text {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.App .container .About .text > h1 {
+  color: #000;
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 136px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.App .container .About .text > p {
+  max-width: 75%;
+  padding-top: 20px;
+  margin: 0 auto;
+  color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  font-family: "Inter";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px; /* 133.333% */
+  letter-spacing: 0.48px;
+}
+.App .container .Projects {
+  margin-top: 900px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.App .container .Projects .title {
+  color: #000;
+  font-family: "Montserrat";
+  font-size: 128px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin: 0 auto;
+}
+
+.Project-1 {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+}
+.Project-1 .img {
+  background-color: #000000;
+  width: 600px;
+  height: 750px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Project-1 .img .light {
+  position: absolute;
+  z-index: -1;
+  width: 650px;
+  height: 800px;
+  border-radius: 921px;
+  filter: blur(45px);
+}
+.Project-1 .img > img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 98%;
+  height: 98%;
+  z-index: 10;
+}
+.Project-1 .text {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.Project-1 .text .theme {
+  display: flex;
+  flex-direction: row;
+  column-gap: 5px;
+}
+.Project-1 .text .description {
+  margin-top: 16px;
+  color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.Project-2 {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.Project-2 .img {
+  background-color: #000000;
+  width: 600px;
+  height: 750px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Project-2 .img .light {
+  position: absolute;
+  z-index: -1;
+  width: 650px;
+  height: 800px;
+  border-radius: 921px;
+  filter: blur(45px);
+}
+.Project-2 .img > img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 98%;
+  height: 98%;
+}
+.Project-2 .text {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.Project-2 .text .theme {
+  display: flex;
+  flex-direction: row;
+  column-gap: 5px;
+}
+.Project-2 .text .description {
+  margin-top: 16px;
+  color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.footer {
+  margin-top: 150px;
+  width: 100%;
+  background-color: #fcf5b1;
+  height: 300px;
+  padding-left: 10%;
+}
+.footer .title {
+  font-size: 24px;
+  font-family: "Inter";
+  padding-top: 100px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.footer .block {
+  margin-top: 20px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 10px;
+}
+.footer .block > div {
+  background-image: url(653a60edfe83b646e35c.svg);
+  width: 16px;
+  height: 16px;
+  background-size: cover;
+}
+.footer .block > a {
+  font-size: 16px;
+  font-family: "Inter";
+  color: #000;
+  text-decoration: none;
+}
